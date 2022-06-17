@@ -5,7 +5,7 @@ let root;
 
 const AppWindow = () => {
     root = new BrowserWindow({
-        // frame:false,
+        frame:false,
         webPreferences:{
             webSecurity:true,
             nodeIntegration:false,
