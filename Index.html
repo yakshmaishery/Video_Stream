@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self';">
+</head>
+<body>
+    <div class="container">
+        <!-- titlebar -->
+        <div class="titlebar">
+            <!-- title -->
+            <p id="title">📺 Video Stream</p>
+            <!-- Buttons -->
+            <Button class="mainbtn" id="min_btn">⚊</Button>
+            <Button class="mainbtn" id="max_btn">◻</Button>
+            <Button class="mainbtn" id="close_btn">❌</Button>
+        </div>
+        <!-- main content -->
+        <div class="maincontainer">
+            <!-- Controls -->
+            <div style="display: flex;">
+                <!-- text box -->
+                <input type="text" name="txt" id="txt" placeholder="Enter the Path" spellcheck="false">
+                <!-- Buttons -->
+                <Button class="controlbtn" id="startbtn">▶</Button>
+                <Button class="controlbtn" id="stopbtn">II</Button>
+            </div>
+            <!-- Main Window -->
+            <img src="" alt="" id="canvas">
+            <!-- <div>
+            </div> -->
+        </div>
+    </div>
+</body>
+</html>

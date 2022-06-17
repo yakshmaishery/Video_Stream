@@ -1,0 +1,15 @@
+{
+  "name": "video_stream",
+  "version": "1.0.0",
+  "description": "This is a Video Stream App",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Yaksh Maishery",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "electron": "^18.2.0"
+  }
+}
